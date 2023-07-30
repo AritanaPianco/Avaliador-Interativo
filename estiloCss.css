@@ -21,8 +21,6 @@ body{
 
     
 
-
-
 .hero{
    width: 60rem;
    text-align: center;
@@ -57,10 +55,6 @@ body{
 .hero-title{
     font-size: 2.3rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-
-   
-   
-   
 }
 
 .hero-paragrafo{
@@ -70,11 +64,8 @@ body{
     width: 50rem;
     margin: 0 6rem;
     color: var(--color-texts-number);
-
-
 }
-
-
+   
 .hero-list{ 
     padding: 0;
     line-height: 8rem;
@@ -82,54 +73,45 @@ body{
   
 
 }
-
+   
 .hero-ul{
    display: flex;
    list-style-type: none;
    justify-content: space-evenly;
     line-height: 3rem;
     padding: 0;
-   
-
-   
 }
-   
-   
- 
+
 .hero-ul li{
-    text-decoration: none;
-    font-size: 2rem;
-    margin:0 ;
-    color: var(--color-texts-number);
-    background-color: var(--background-bottons);
-    padding: 3rem; 
-    font-weight: bolder;
-    border-radius: 50%;
-    width: 3rem;
-   
- 
-
-    
+   text-decoration: none;
+   font-size: 2rem;
+   margin:0 ;
+   color: var(--color-texts-number);
+   background-color: var(--background-bottons);
+   padding: 3rem; 
+   font-weight: bolder;
+   border-radius: 50%;
+   width: 3rem;
+  
 }
+
 .hero-ul .active {
-    background-color: var(--orange);
-    color: white;
-    cursor: pointer;
-    
+   background-color: var(--orange);
+   color: white;
+   cursor: pointer;
+   
 }
-
-
 .hero-footer{
-    padding: 0.3rem;
-     border-radius: 5rem;
-     margin: 2rem 5rem;
+   padding: 0.3rem;
+    border-radius: 5rem;
+    margin: 2rem 5rem;
 }
-    
 
+   
 .footer{
-    margin: 0 8rem 1rem;
-    padding: 1rem;
-    
+   margin: 0 8rem 1rem;
+   padding: 1rem;
+   
 
 }
 
@@ -145,11 +127,6 @@ body{
     border-radius: 2rem;
    
 }    
-  
-    
-    
-    
-    
 
 .hero-ul li:hover{
     background-color: var(--color-texts-number);
@@ -170,11 +147,6 @@ body{
     transition-timing-function: ease-in;
     cursor: pointer;
 }
-
-
-
-
-
 .hero2{
     width: 60rem;
     text-align: center;
@@ -196,8 +168,6 @@ body{
  .hero2-content img{
      width: 25rem;
  }
-   
-    
  
  .hero2-paragrafo{
      font-size: 2rem;
@@ -212,26 +182,57 @@ body{
     }
  
  
- .hero2-article{
+.hero2-article{
      margin-top: 0rem;
      margin-bottom: 4rem;
      
  }
- .hero2-title{
+ 
+.hero2-title{
      font-size: 3.4rem;
      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
      text-transform: uppercase;
  }
  
- .hero2-article p{
+.hero2-article p{
      font-size: 2rem;
      margin: 0 6rem ; 
      line-height: 3.2rem;
      color: var(--color-texts-number);
 }
    
-  
-
 .hide{
     display: none;
  }
+  
+
+
+
+
+
+
+
+
+   
+    
+
+   
+
+   
+
+   
+   
+
+
+
+
+
+
+   
+   
+  
+    
+    
+    
+    
+
