@@ -1,0 +1,237 @@
+html{
+    font-size: 62.5%;
+    
+}
+
+:root{
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --background-div: hsl(213, 26%, 15%);
+    --background-bottons:hsl(212, 19%, 27%);
+    --color-texts-number:hsl(217, 12%, 63%);
+    --orange:hsl(25, 97%, 53%);
+
+
+}
+
+body{
+    width: 80%;
+    margin:0;    
+    background-color: var(--Very-Dark-Blue);
+}
+
+    
+
+
+
+.hero{
+   width: 60rem;
+   text-align: center;
+   line-height: 4rem;
+   color: white;
+   margin: 17rem 40%;
+   background-color: var(--background-div);
+   border-radius: 5rem;
+   padding: 2rem;
+  
+   
+}
+   
+   
+.hero-image{
+    width: 4rem;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    background-color:var(--background-bottons);
+   
+}
+
+.hero-content{
+    margin-top:0 ;
+    margin-bottom: 3rem;
+  
+    
+
+}
+.hero-title{
+    font-size: 2.3rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+   
+   
+   
+}
+
+.hero-paragrafo{
+    text-align: left;
+    font-size: 2.1rem;
+    line-height: 3.4rem;
+    width: 50rem;
+    margin: 0 6rem;
+    color: var(--color-texts-number);
+
+
+}
+
+
+.hero-list{ 
+    padding: 0;
+    line-height: 8rem;
+    margin-bottom: 4rem;
+  
+
+}
+
+.hero-ul{
+   display: flex;
+   list-style-type: none;
+   justify-content: space-evenly;
+    line-height: 3rem;
+    padding: 0;
+   
+
+   
+}
+   
+   
+ 
+.hero-ul li{
+    text-decoration: none;
+    font-size: 2rem;
+    margin:0 ;
+    color: var(--color-texts-number);
+    background-color: var(--background-bottons);
+    padding: 3rem; 
+    font-weight: bolder;
+    border-radius: 50%;
+    width: 3rem;
+   
+ 
+
+    
+}
+.hero-ul .active {
+    background-color: var(--orange);
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+.hero-footer{
+    padding: 0.3rem;
+     border-radius: 5rem;
+     margin: 2rem 5rem;
+}
+    
+
+.footer{
+    margin: 0 8rem 1rem;
+    padding: 1rem;
+    
+
+}
+
+.footer button{
+    background-color: var(--orange) ;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    padding: 2.3rem 16rem;
+    border-radius: 2rem;
+   
+}    
+  
+    
+    
+    
+    
+
+.hero-ul li:hover{
+    background-color: var(--color-texts-number);
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+
+
+
+.footer button:hover{
+    background-color: white;
+    color:var(--orange) ;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+
+
+
+
+
+.hero2{
+    width: 60rem;
+    text-align: center;
+    line-height: 3rem;
+    color: white;
+    margin: 17rem 40%;
+    background-color: var(--background-div);
+    border-radius: 5rem;
+    padding: 2rem;
+
+    
+ }
+ .hero2-content{
+     padding: 2rem; 
+     margin: 2rem 2rem 0;
+ 
+    }  
+    
+ .hero2-content img{
+     width: 25rem;
+ }
+   
+    
+ 
+ .hero2-paragrafo{
+     font-size: 2rem;
+     color: var(--orange);
+     width: fit-content;
+     padding: 0rem 2rem;
+     margin: auto;
+     border-radius: 2rem;
+     letter-spacing: .3rem;
+     background-color:   hsl(215, 26%, 18%);
+
+    }
+ 
+ 
+ .hero2-article{
+     margin-top: 0rem;
+     margin-bottom: 4rem;
+     
+ }
+ .hero2-title{
+     font-size: 3.4rem;
+     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+     text-transform: uppercase;
+ }
+ 
+ .hero2-article p{
+     font-size: 2rem;
+     margin: 0 6rem ; 
+     line-height: 3.2rem;
+     color: var(--color-texts-number);
+}
+   
+  
+
+.hide{
+    display: none;
+ }
